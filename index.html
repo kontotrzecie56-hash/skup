@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Darmowy odbiór butelek – Włocławek i okolice</title>
+  <style>
+    body{margin:0;font-family:Arial;background:#f4f6f8;color:#333}
+    header{background:linear-gradient(135deg,#1abc9c,#16a085);color:white;text-align:center;padding:50px 20px}
+    header h1{font-size:42px;margin:0}
+    header p{font-size:20px;margin:10px 0}
+    .highlight{background:#e74c3c;padding:6px 10px;border-radius:6px}
+    .cta{margin-top:25px}
+    .btn{display:inline-block;padding:15px 24px;border-radius:10px;text-decoration:none;font-weight:bold;margin:6px;font-size:16px}
+    .btn-call{background:#fff;color:#16a085}
+    .btn-call:hover{background:#eee}
+    .btn-wa{background:#25D366;color:white}
+    .btn-wa:hover{background:#1ebe5d}
+    .container{max-width:1000px;margin:auto;padding:20px}
+    .card{background:white;padding:30px;margin:20px 0;border-radius:14px;box-shadow:0 6px 16px rgba(0,0,0,0.08)}
+    h2{margin-top:0}
+    .big{font-size:22px;font-weight:bold}
+    .steps li{margin:10px 0}
+    iframe{width:100%;height:300px;border:0;border-radius:10px}
+    footer{background:#2c3e50;color:white;text-align:center;padding:15px;margin-top:20px}
+    form input, form textarea {width:100%;padding:10px;margin:8px 0;border-radius:5px;border:1px solid #ccc}
+    form button {background:#16a085;color:white;padding:12px 20px;border:none;border-radius:6px;font-weight:bold;cursor:pointer}
+    form button:hover {background:#13846b}
+    .regulamin{background:#fff;padding:20px;margin:20px 0;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.1)}
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>🚨 ODBIÓR BUTELEK ZA DARMO 🚨</h1>
+  <p>Włocławek i okolice</p>
+  <p class="big">Masz <span class="highlight">50+ butelek?</span> Przyjedziemy nawet <strong>dzisiaj</strong>.</p>
+  <p>Bez wożenia. Bez stania w sklepie. Bez problemu.</p>
+
+  <div class="cta">
+    <a class="btn btn-call" href="tel:123456789">📞 Zadzwoń teraz</a>
+    <a class="btn btn-wa" href="https://wa.me/48123456789">💬 Napisz na WhatsApp</a>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>Dlaczego warto?</h2>
+    <p class="big">Odbieramy butelki całkowicie ZA DARMO</p>
+    <ul>
+      <li>✔ Nie tracisz czasu</li>
+      <li>✔ Nie stoisz w kolejkach</li>
+      <li>✔ Nie nosisz ciężkich siatek</li>
+      <li>✔ Masz porządek w domu</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Jak to działa?</h2>
+    <ol class="steps">
+      <li>📞 Kontaktujesz się z nami (telefon / WhatsApp / email)</li>
+      <li>📅 Ustalamy szybki termin</li>
+      <li>🚗 Przyjeżdżamy pod wskazany adres</li>
+      <li>♻️ Zabieramy butelki</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>Dla kogo to jest?</h2>
+    <ul>
+      <li>🏠 Domy i mieszkania</li>
+      <li>🎉 Imprezy / eventy</li>
+      <li>🍺 Osoby które mają dużo butelek</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Gdzie działamy?</h2>
+    <p>Włocławek i okolice</p>
+    <iframe src="https://maps.google.com/maps?q=W%C5%82oc%C5%82awek&t=&z=11&ie=UTF8&iwloc=&output=embed"></iframe>
+  </div>
+
+  <div class="card">
+    <h2>Kontakt – szybka akcja</h2>
+    <p class="big">Kliknij i załatw to w 30 sekund:</p>
+    <form id="contactForm">
+      <input type="text" name="imie" placeholder="Twoje imię" required>
+      <input type="tel" name="telefon" placeholder="Numer telefonu" required>
+      <textarea name="wiadomosc" placeholder="Ile masz butelek? Gdzie odebrać?" rows="4"></textarea>
+      <button type="submit">Wyślij wiadomość</button>
+    </form>
+    <p><strong>Telefon:</strong> 123 456 789</p>
+    <p><strong>Email:</strong> kontakt@butelkiwloclawek.pl</p>
+  </div>
+
+  <div class="regulamin">
+    <h2>Regulamin świadczenia usługi odbioru butelek</h2>
+    <ol>
+      <li><strong>Postanowienia ogólne:</strong> Usługa polega na odbiorze pustych butelek na terenie Włocławka i okolic. Usługa jest bezpłatna dla klienta. Kontakt z nami oznacza akceptację regulaminu.</li>
+      <li><strong>Zakres usługi:</strong> Odbieramy wyłącznie butelki nadające się do zwrotu w sklepach. Minimalna ilość butelek może być ustalana indywidualnie. Zastrzegamy prawo odmowy odbioru w przypadku małej ilości lub złego stanu butelek.</li>
+      <li><strong>Realizacja:</strong> Termin odbioru ustalany indywidualnie. Nie gwarantujemy odbioru tego samego dnia. Klient zobowiązuje się przygotować butelki do odbioru.</li>
+      <li><strong>Odpowiedzialność:</strong> Nie ponosimy odpowiedzialności za odmowę przyjęcia butelek przez sklep ani różnice w wartości zwrotu.</li>
+      <li><strong>Dane kontaktowe:</strong> Dane podane przez klienta są wykorzystywane wyłącznie do realizacji usługi.</li>
+      <li><strong>Postanowienia końcowe:</strong> Regulamin może być zmieniany w dowolnym momencie. Aktualna wersja znajduje się na stronie internetowej.</li>
+    </ol>
+    <h2>Podstawa prawna</h2>
+    <ul>
+      <li>Kodeks cywilny (ustawa z dnia 23 kwietnia 1964 r.)</li>
+      <li>Ustawa o świadczeniu usług drogą elektroniczną (Dz.U. 2002 nr 144 poz. 1204)</li>
+      <li>Rozporządzenie o ochronie danych osobowych (RODO, UE 2016/679)</li>
+    </ul>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 Darmowy odbiór butelek – Włocławek</p>
+  <p style="font-size:12px;margin-top:10px">Email: kontakt@butelkiwloclawek.pl</p>
+</footer>
+
+<script>
+  document.getElementById('contactForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    const imie = this.imie.value;
+    const telefon = this.telefon.value;
+    const wiadomosc = this.wiadomosc.value;
+
+    window.location.href = `mailto:kontakt@butelkiwloclawek.pl?subject=Nowy klient&body=Imię: ${imie}%0ATelefon: ${telefon}%0AWiadomość: ${wiadomosc}`;
+
+    axios.post('https://twilio-server.example.com/send-sms', {imie, telefon, wiadomosc})
+      .then(()=>{alert('Dziękujemy! Otrzymasz odpowiedź wkrótce.'); this.reset();})
+      .catch(()=>{alert('Wystąpił problem. Spróbuj ponownie.');});
+  });
+</script>
+
+</body>
+</html>
